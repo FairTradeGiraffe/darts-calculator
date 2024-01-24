@@ -1,0 +1,234 @@
+
+/* Practice Card Circle Animation*/
+@media (min-width: 300px) {
+
+  /* Random Checkout Practice */
+    #random-checkout-number{
+      font-size: 120px ;
+      color: #353c43;
+      text-align: center;
+    }
+
+    #checkouthint, #thrown-darts{
+    font-size: 40px;
+    color: #353c43;
+    text-align: center;
+    word-wrap: break-word;
+    }
+
+    #thrown-darts{
+      font-size: 20px;
+      color: #353c43;
+      text-align: center;
+      word-wrap: break-word;
+    }
+  /* End Random Checkout Practice */
+
+.stats-text-random-checkout{
+  font-size: 30px ;
+    color: #353c43;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+  /* Random Checkout Practice */
+    #random-checkout-number{
+      font-size: 220px ;
+      color: #353c43;
+      text-align: center;
+    }
+
+    #checkouthint{
+    font-size: 80px ;
+    color: #353c43;
+    text-align: center;
+    word-wrap: break-word;
+    }
+
+    #thrown-darts{
+      font-size: 40px;
+      color: #353c43;
+      text-align: center;
+      word-wrap: break-word;
+    }
+
+  /* End Random Checkout Practice */
+
+}
+  /*End General CSS */
+
+
+
+@media (min-width: 719px) {
+
+  /* Random Checkout Practice */
+    #random-checkout-number{
+      font-size: 220px ;
+      color: #353c43;
+      text-align: center;
+    }
+
+    #checkouthint{
+    font-size: 80px ;
+    color: #353c43;
+    text-align: center;
+    word-wrap: break-word;
+    }
+
+    #thrown-darts{
+      font-size: 40px;
+      color: #353c43;
+      text-align: center;
+      word-wrap: break-word;
+    }
+    
+
+  /* End Random Checkout Practice */
+
+  /*General CSS */
+  /*End General CSS */
+
+}
+
+@media (min-width: 1200px) {
+
+  /* Random Checkout Practice */
+
+    #random-checkout-number{
+      font-size: 220px ;
+      color: #353c43;
+      text-align: center;
+    }
+
+    #checkouthint{
+    font-size: 80px ;
+    color: #353c43;
+    text-align: center;
+    word-wrap: break-word;
+    }
+
+    #thrown-darts{
+      font-size: 40px;
+      color: #353c43;
+      text-align: center;
+      word-wrap: break-word;
+    }
+
+    /* End Random Checkout Practice */
+  }
+
+
+@media (min-width: 1920px) {
+
+  .stats-text-random-checkout{
+  font-size: 40px ;
+    color: #353c43;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+
+  /* Random Checkout Practice */
+    #random-checkout-number{
+      font-size: 320px ;
+      color: #353c43;
+      text-align: center;
+    }
+
+    #checkouthint{
+    font-size: 100px ;
+    color: #353c43;
+    text-align: center;
+    word-wrap: break-word;
+    }
+
+    #thrown-darts{
+      font-size: 50px;
+      color: #353c43;
+      text-align: center;
+      word-wrap: break-word;
+    }
+
+    /* End Random Checkout Practice */
+}
+
+@media (min-width: 2500px) {
+
+  /* Random Checkout Practice */
+    #random-checkout-number{
+      font-size: 420px ;
+      color: #353c43;
+      text-align: center;
+    }
+
+    #checkouthint{
+    font-size: 120px ;
+    color: #353c43;
+    text-align: center;
+    word-wrap: break-word;
+    }
+
+    #thrown-darts{
+      font-size: 60px;
+      color: #353c43;
+      text-align: center;
+      word-wrap: break-word;
+    }
+
+    /* End Random Checkout Practice */
+}
+@media (min-width: 4000px) {
+
+  /* Random Checkout Practice */
+    #random-checkout-number{
+      font-size: 620px ;
+      color: #353c43;
+      text-align: center;
+    }
+
+    #checkouthint{
+    font-size: 170px ;
+    color: #353c43;
+    text-align: center;
+    word-wrap: break-word;
+    }
+
+    #thrown-darts{
+      font-size: 85px;
+      color: #353c43;
+      text-align: center;
+      word-wrap: break-word;
+    }
+
+    /* End Random Checkout Practice */
+}      
+
+
+/* White Boxes */
+.numberbox{
+background-color: #fff;
+border-radius: 10px;
+margin-bottom: 10px;
+margin-left: 20px;
+}
+/* Show green and red Animation */
+.numberAnimation_good {
+    background-color: #90ee90 !important;
+    -webkit-transition: background-color 1000ms linear !important;
+    -ms-transition: background-color 1000ms linear !important;
+    transition: background-color 1000ms linear !important;
+}
+
+.numberAnimation_bad {
+    background-color: #ff4d4d !important;
+   -webkit-transition: background-color 1000ms linear !important;
+    -ms-transition: background-color 1000ms linear !important;
+    transition: background-color 1000ms linear !important;
+}
+
+.btn-primary active{
+  background-color: white;
+  color:red;
+}
+
+/* End Show green and red Animation */

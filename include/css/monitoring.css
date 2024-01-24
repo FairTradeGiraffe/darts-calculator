@@ -1,0 +1,74 @@
+
+
+@media (min-width: 1680px) {
+    /*Namebox Styles*/
+    .playernamefield p {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 65px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+    /*Current Points left to check*/
+    .pointstochecktext {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 125px;
+        text-align: right;
+        margin-right: 10px;
+        margin-bottom: 0px;
+        /*background-color: grey; */
+    }
+    /*Fields throwed*/
+    .actual-throw {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 0px;
+        /*border: 3px solid black;*/
+    }
+    /*Privious Take Style*/
+    .latest-darts-throw {
+        /*margin-top: 30px;*/
+        /*background-color: #528b6e;*/
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    /*General Textstyle for all Elements in Table*/
+    .leftinformationtable {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 0px;
+        /*background-color:#272c31;*/
+    }
+    .won-legs-indicator{
+        font-size: 25px;
+    }
+    /*Checkouthint*/
+    .checkouthint p {
+        font-size: 55px;
+        margin-bottom: 0px;
+    }
+    .checkouthint2 p {
+        font-size: 50px;
+    }
+    /*Darts Img*/
+    .darts {
+        padding: 0px;
+        margin-top: 1.2rem;
+    }
+    .darts img {
+        height: 50px;
+        width: 50px;
+    }
+}

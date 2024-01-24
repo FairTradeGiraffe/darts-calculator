@@ -1,0 +1,38 @@
+.dartboard{
+display:inline-block;
+width: 45vw;
+height: 100vh;
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+}
+
+.dartboard,.dartboard *{
+cursor:default
+}
+
+.dartboard .out{
+fill:#2e343a
+}
+.dartboard .number{
+fill:#fff;
+font-family:"Open Sans",sans-serif;
+font-size:50px;
+font-weight:400;
+}
+.dartboard .double,.dartboard .double-bull,.dartboard .single,.dartboard .single-bull,.dartboard .triple{
+stroke:#2e343a
+}
+.dartboard .double-bull,.dartboard .double.even,.dartboard .triple.even{
+fill:#d95652
+}
+.dartboard .double.odd,.dartboard .single-bull,.dartboard .triple.odd{
+fill:#528b6e
+}
+.dartboard .single.even{
+fill:#2e343a
+}
+.dartboard .single.odd{
+fill:#fde1d0
+}
