@@ -63,11 +63,11 @@ function displayErrorSite($error){
         <div class="col-12">
           <form action="monitoring.php" method="get" class="col-6 mx-auto">
             <div class="input-group mb-3">
-              <span class="input-group-text" id="monitoring-code-addon"><i class="fa-duotone fa-key"></i></span>
+              <span class="input-group-text" id="monitoring-code-addon"><i class="fa-solid fa-key"></i></span>
               <input id="monitoring-code" type="text" class="form-control" placeholder="Monitoring-Code" name="code" aria-label="Monitoring-Code" aria-describedby="monitoring-code-addon" value="">
             </div>
 
-            <button id="randomMonitoringCode" type="submit" class="btn btn-primary" tabindex="1"><i class="fa-duotone fa-paper-plane fa-lg" aria-hidden="true"></i> Senden</button>
+            <button id="randomMonitoringCode" type="submit" class="btn btn-primary" tabindex="1"><i class="fa-solid fa-paper-plane fa-lg" aria-hidden="true"></i> Senden</button>
 
           </form>
         </div>
@@ -84,7 +84,7 @@ function displayErrorSite($error){
       <div class="row">
         <div class="col-12">
           <div class="col-6 mx-auto">
-            <button id="refreshpage" type="button" class="btn btn-primary" tabindex="1"><i class="fa-duotone fa-rotate-forward fa-lg" aria-hidden="true"></i> Seite erneut laden</button>
+            <button id="refreshpage" type="button" class="btn btn-primary" tabindex="1"><i class="fa-solid fa-rotate-forward fa-lg" aria-hidden="true"></i> Seite erneut laden</button>
           </div>
         </div>
       </div>

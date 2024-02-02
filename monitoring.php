@@ -146,11 +146,11 @@ if($gameData != ""){
 <div class="row">
 
   <div class="col-12 col-md-4 col-lg-4" style="margin-top: 10px; margin-left: 10px;">
-    <button id="togglefullscreen" type="button" data-currentMode="compressed" class="btn btn-primary" tabindex="1"><i class="fa-duotone fa-expand fa-lg" aria-hidden="true"></i> Vollbildmodus</button>
+    <button id="togglefullscreen" type="button" data-currentMode="compressed" class="btn btn-primary" tabindex="1"><i class="fa-solid fa-expand fa-lg" aria-hidden="true"></i> Vollbildmodus</button>
   </div>
 
   <div class="col-12 col-md-3 col-lg-2" style="margin-top: 10px;">
-    <button id="showstats" type="button" class="btn btn-primary"><i class="fa-duotone fa-chart-line fa-lg"></i> Statistiken</button>
+    <button id="showstats" type="button" class="btn btn-primary"><i class="fa-solid fa-chart-line fa-lg"></i> Statistiken</button>
   </div>
 
   <!--

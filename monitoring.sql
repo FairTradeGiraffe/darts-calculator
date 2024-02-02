@@ -13,12 +13,12 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
--- Exportiere Datenbank Struktur für darts_live
-DROP DATABASE IF EXISTS `darts_live`;
-CREATE DATABASE IF NOT EXISTS `darts_live` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `darts_live`;
+-- Exportiere Datenbank Struktur für darts
+DROP DATABASE IF EXISTS `darts`;
+CREATE DATABASE IF NOT EXISTS `darts` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `darts`;
 
--- Exportiere Struktur von Tabelle darts_live.monitoring
+-- Exportiere Struktur von Tabelle darts.monitoring
 DROP TABLE IF EXISTS `monitoring`;
 CREATE TABLE IF NOT EXISTS `monitoring` (
   `monitoringID` int(11) NOT NULL AUTO_INCREMENT,

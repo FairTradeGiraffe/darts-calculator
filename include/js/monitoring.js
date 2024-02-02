@@ -42,14 +42,14 @@ $('#togglefullscreen').click(function() {
     Logger("Aktuell Fullscreen, diesen nun verlassen");
     //$(this).attr('data-currentMode', 'compressed'); 
     closeFullscreen(document.documentElement);
-    $(this).html('<i class="fa-duotone fa-expand fa-lg" aria-hidden="true"></i> Vollbildmodus');
+    $(this).html('<i class="fa-solid fa-expand fa-lg" aria-hidden="true"></i> Vollbildmodus');
 
 
   }else{
     Logger("Aktuell kein Fullscreen, diesen nun starten");
     //$(this).attr('data-currentMode', 'enlarged'); 
     openFullscreen(document.documentElement);
-    $(this).html('<i class="fa-duotone fa-compress fa-lg" aria-hidden="true"></i> Vollbildmodus verlassen');
+    $(this).html('<i class="fa-solid fa-compress fa-lg" aria-hidden="true"></i> Vollbildmodus verlassen');
   };
 
 });
@@ -353,8 +353,8 @@ function getGermanDateTime(date){
 }
 
 function showHistoryModal(){
-  var title = '<i class="fa-duotone fa-clock-rotate-left fa-lg"></i> Leg-Verlauf';
-  var footer = '<button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-23.5rem;"><i class="fa-duotone fa-circle-check fa-lg"></i> Okay</button>';
+  var title = '<i class="fa-solid fa-clock-rotate-left fa-lg"></i> Leg-Verlauf';
+  var footer = '<button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-23.5rem;"><i class="fa-solid fa-circle-check fa-lg"></i> Okay</button>';
   var body = "Es wurde noch kein Leg beendet.";
 
   if(LegHistory != null && LegHistory.length > 0){
@@ -408,7 +408,7 @@ function showHistoryModal(){
 
           accordionbody += "</tbody></table>";
 
-          accordionbody += '<div><i class="fa-duotone fa-calendar-clock"></i> '+finishedDate+'</div>';
+          accordionbody += '<div><i class="fa-solid fa-clock"></i> '+finishedDate+'</div>';
 
           body += '<div class="accordion-item"><h2 class="accordion-header" id="headline'+x+'"><button class="accordion-button '+showFirstAccordionsButtonCollapsed+'" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'+x+'" aria-expanded="true" aria-controls="collapse'+x+'">Leg #'+counter+' - Sieger <strong style="padding-left: 4px;padding-right: 4px;">'+LegHistory[x]["LegWonByName"]+'</strong> mit '+LegHistory[x]["DartsToFinish"]+' Darts '+accordionTitleBREAK+'</button></h2><div id="collapse'+x+'" class="accordion-collapse collapse '+showLastAccordion+'" aria-labelledby="headline'+x+'" data-bs-parent="#accordionLegHistory"><div class="accordion-body">'+accordionbody+'</div></div></div>';
 

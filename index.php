@@ -74,7 +74,7 @@ if(isset($_COOKIE[$cookie_name])) {
             </div>
 
             oder
-            <button id="openPracticeLink" type="button" class="btn btn-primary col-4" tabindex="1"><i class='fa-duotone fa-arrow-up-right-from-square fa-lg' aria-hidden='true'></i> Trainingsmodus</button>
+            <button id="openPracticeLink" type="button" class="btn btn-primary col-4" tabindex="1"><i class='fa-solid fa-arrow-up-right-from-square fa-lg' aria-hidden='true'></i> Trainingsmodus</button>
 
             <hr>
 
@@ -135,10 +135,10 @@ if(isset($_COOKIE[$cookie_name])) {
             <p>Nachdem mindestens ein Spieler ausgewählt wurde, kann das Spiel gestartet werden. Alternativ kann das vorherige Spiel fortgesetzt werden.</p>
             <div class="row">
             <div class="col-12 col-md-6">
-              <button id="gameon" type="button" class="btn btn-lg col-12 btn-primary startgame" style="margin-bottom:20px;" tabindex="2"><i class="fa-duotone fa-bullseye-arrow fa-lg"></i> Neues Spiel starten</button>
+              <button id="gameon" type="button" class="btn btn-lg col-12 btn-primary startgame" style="margin-bottom:20px;" tabindex="2"><i class="fa-solid fa-bullseye fa-lg"></i> Neues Spiel starten</button>
             </div>
             <div class="col-12 col-md-6">
-              <button id="loadPreviousSession" type="button" class="btn btn-lg col-12 btn-primary" style="margin-bottom:20px;" tabindex="2"><i class="fa-duotone fa-clock-rotate-left fa-lg"></i> Vorheriges Spiel laden</button>
+              <button id="loadPreviousSession" type="button" class="btn btn-lg col-12 btn-primary" style="margin-bottom:20px;" tabindex="2"><i class="fa-solid fa-clock-rotate-left fa-lg"></i> Vorheriges Spiel laden</button>
             </div>
 
             </div>
@@ -154,13 +154,13 @@ if(isset($_COOKIE[$cookie_name])) {
             <div class="row">
               <div class="col-12 col-md-7">
                   <div class="input-group mb-3">
-                    <span class="input-group-text" id="monitoring-code-addon"><i class="fa-duotone fa-key"></i></span>
+                    <span class="input-group-text" id="monitoring-code-addon"><i class="fa-solid fa-key"></i></span>
                     <input id="monitoring-code" type="text" class="form-control" placeholder="Monitoring-Code" aria-label="Monitoring-Code" aria-describedby="monitoring-code-addon" value="<?php if(isset($_SESSION['DBAccessorKey'])){echo $_SESSION['DBAccessorKey'];}?>" autocomplete="off">
                   </div>
               </div>
 
               <div class="col-12 col-md-5">
-                <button id="randomMonitoringCode" type="button" class="btn btn-primary col-12" tabindex="1"><i class='fa-duotone fa-dice fa-lg' aria-hidden='true'></i> Zufälliger Code</button>
+                <button id="randomMonitoringCode" type="button" class="btn btn-primary col-12" tabindex="1"><i class='fa-solid fa-dice fa-lg' aria-hidden='true'></i> Zufälliger Code</button>
               </div>
             </div>
 
@@ -188,11 +188,11 @@ if(isset($_COOKIE[$cookie_name])) {
 
             <div class="row">
               <div class="col-12 col-md-6">
-                <button id="copyMonitoringLink" type="button" class="btn btn-primary col-12" tabindex="1"><i class='fa-duotone fa-clipboard fa-lg' aria-hidden='true'></i> Link kopieren</button>
+                <button id="copyMonitoringLink" type="button" class="btn btn-primary col-12" tabindex="1"><i class='fa-solid fa-clipboard fa-lg' aria-hidden='true'></i> Link kopieren</button>
               </div>
 
               <div class="col-12 col-md-6">
-                <button id="openMonitoringLink" type="button" class="btn btn-primary col-12" tabindex="1"><i class='fa-duotone fa-arrow-up-right-from-square fa-lg' aria-hidden='true'></i> Link öffnen</button>
+                <button id="openMonitoringLink" type="button" class="btn btn-primary col-12" tabindex="1"><i class='fa-solid fa-arrow-up-right-from-square fa-lg' aria-hidden='true'></i> Link öffnen</button>
               </div>
             </div>
 
@@ -202,17 +202,17 @@ if(isset($_COOKIE[$cookie_name])) {
              <p>Namen eingeben und auf 'Spieler hinzufügen' klicken.<br>Spieler dürfen gleich heißen, kann allerdings zu Verwirrung führen...</p>
              
              <div class="input-group mb-3">
-              <span class="input-group-text" id="playername-addon"><i class="fa-duotone fa-user fa-lg"></i></span>
+              <span class="input-group-text" id="playername-addon"><i class="fa-solid fa-user fa-lg"></i></span>
               <input id="new-player" type="text" class="form-control" placeholder="Spielername" aria-label="Spielername" aria-describedby="playername-addon" autocomplete="off">
              </div>
 
-              <button id="addplayer" type="button" class="btn btn-primary col-12 col-md-5" tabindex="1"><i class='fa-duotone fa-user-plus fa-lg' aria-hidden='true'></i> Spieler hinzufügen</button>
-              <button id="deleteplayer" type="button" class="btn btn-danger col-12 col-md-5" style="float:right;" tabindex="1"><i class='fa-duotone fa-user-minus fa-lg' aria-hidden='true'></i> Spieler entfernen</button>				
+              <button id="addplayer" type="button" class="btn btn-primary col-12 col-md-5" tabindex="1"><i class='fa-solid fa-user-plus fa-lg' aria-hidden='true'></i> Spieler hinzufügen</button>
+              <button id="deleteplayer" type="button" class="btn btn-danger col-12 col-md-5" style="float:right;" tabindex="1"><i class='fa-solid fa-user-minus fa-lg' aria-hidden='true'></i> Spieler entfernen</button>				
          
             <hr>
 
             <h2>Spieler auswählen</h2>
-            <p>Die Spieler können auch noch verschoben werden, der Spieler welcher oben steht fängt an. Dies geht einfach per Drag&Drop (<i class="fa-duotone fa-up-down-left-right"></i>)</p>
+            <p>Die Spieler können auch noch verschoben werden, der Spieler welcher oben steht fängt an. Dies geht einfach per Drag&Drop (<i class="fa-solid fa-up-down-left-right"></i>)</p>
             <div class="greybox" style="max-height: 500px;overflow: auto;">
                 <div id="hintshowplayerlist" align="center"><p style="display:inline; color: #353c43;">Keine Spieler angelegt</p></div>
             	<ul id="check-list-box" class="list-group checked-list-box"></ul>

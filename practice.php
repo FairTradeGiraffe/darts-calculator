@@ -93,8 +93,8 @@ if(!count($_SESSION['SelectedPlayers']) > 0){
       
       <div class="col-12" id="numberblock">
       <ul class="list-group list-group-horizontal list-inline">
-        <!--<li class="list-group-item flex-fill" style="padding-top:15px"><h3><i class="fa-duotone fa-bullseye-arrow"></i> Eingabe</h3></li>-->
-        <li class="list-group-item flex-fill"><button id="undomove" type="button" class="btn btn-primary" style="margin-top:5px; margin-right:15px; float:left;"><i class="fa-duotone fa-clock-rotate-left fa-lg"></i> UNDO</button><button id="skipnumber" type="button" class="btn btn-primary" style="margin-top:5px; margin-right:15px; float:center;"><i class="fa-duotone fa-forward fa-lg"></i> Überspringen</button><button id="quitpractice" type="button" class="btn btn-primary" style="margin-top:5px; float:right;"><i class="fa-duotone fa-right-from-bracket fa-lg"></i> Beenden</button></li>
+        <!--<li class="list-group-item flex-fill" style="padding-top:15px"><h3><i class="fa-solid fa-bullseye-arrow"></i> Eingabe</h3></li>-->
+        <li class="list-group-item flex-fill"><button id="undomove" type="button" class="btn btn-primary" style="margin-top:5px; margin-right:15px; float:left;"><i class="fa-solid fa-clock-rotate-left fa-lg"></i> UNDO</button><button id="skipnumber" type="button" class="btn btn-primary" style="margin-top:5px; margin-right:15px; float:center;"><i class="fa-solid fa-forward fa-lg"></i> Überspringen</button><button id="quitpractice" type="button" class="btn btn-primary" style="margin-top:5px; float:right;"><i class="fa-solid fa-right-from-bracket fa-lg"></i> Beenden</button></li>
       </ul>
 
       <?php

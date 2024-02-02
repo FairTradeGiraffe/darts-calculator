@@ -34,8 +34,8 @@ $('.addpoints').click(function() {
 });
 
 function showExitPracticeModal(){
-    var title = '<i class="fa-duotone fa-right-from-bracket fa-lg"></i> Beenden';
-    var footer = '<button id="confirmExitPractice" type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-19.5rem;"><i class="fa-duotone fa-circle-check fa-lg"></i> Ja</button> <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-duotone fa-circle-xmark fa-lg"></i> Nein</button>';
+    var title = '<i class="fa-solid fa-right-from-bracket fa-lg"></i> Beenden';
+    var footer = '<button id="confirmExitPractice" type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-19.5rem;"><i class="fa-solid fa-circle-check fa-lg"></i> Ja</button> <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-circle-xmark fa-lg"></i> Nein</button>';
     var body = "Soll das Training wirklich beendet werden?";
 
     $('#modal-title').html(title);

@@ -2006,8 +2006,8 @@ $('#showinfos').click(function(){
 });
 
 function showInfoModal(){
-    var title = '<i class="fa-duotone fa-circle-info fa-lg"></i> Infos';
-    var footer = '<button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-23.5rem;"><i class="fa-duotone fa-circle-check fa-lg"></i> Okay</button>';
+    var title = '<i class="fa-solid fa-circle-info fa-lg"></i> Infos';
+    var footer = '<button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-23.5rem;"><i class="fa-solid fa-circle-check fa-lg"></i> Okay</button>';
     var body = 'Folgende GameSettings sind aktuell geladen:</br>';
 
     /*
@@ -2051,8 +2051,8 @@ function showInfoModal(){
 
 
 function showHistoryModal(){
-    var title = '<i class="fa-duotone fa-clock-rotate-left fa-lg"></i> Leg-Verlauf';
-    var footer = '<button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-23.5rem;"><i class="fa-duotone fa-circle-check fa-lg"></i> Okay</button>';
+    var title = '<i class="fa-solid fa-clock-rotate-left fa-lg"></i> Leg-Verlauf';
+    var footer = '<button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-23.5rem;"><i class="fa-solid fa-circle-check fa-lg"></i> Okay</button>';
     var body = "Es wurde noch kein Leg beendet.";
 
     if(LegHistory != null && LegHistory.length > 0){
@@ -2106,7 +2106,7 @@ function showHistoryModal(){
 
             accordionbody += "</tbody></table>";
 
-            accordionbody += '<div><i class="fa-duotone fa-calendar-clock"></i> '+finishedDate+'</div>';
+            accordionbody += '<div><i class="fa-solid fa-clock"></i> '+finishedDate+'</div>';
 
             body += '<div class="accordion-item"><h2 class="accordion-header" id="headline'+x+'"><button class="accordion-button '+showFirstAccordionsButtonCollapsed+'" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'+x+'" aria-expanded="true" aria-controls="collapse'+x+'">Leg #'+counter+' - Sieger <strong style="padding-left: 4px;padding-right: 4px;">'+LegHistory[x]["LegWonByName"]+'</strong> mit '+LegHistory[x]["DartsToFinish"]+' Darts '+accordionTitleBREAK+'</button></h2><div id="collapse'+x+'" class="accordion-collapse collapse '+showLastAccordion+'" aria-labelledby="headline'+x+'" data-bs-parent="#accordionLegHistory"><div class="accordion-body">'+accordionbody+'</div></div></div>';
 
@@ -2125,8 +2125,8 @@ function showHistoryModal(){
 }
 
 function showExitGameModal(){
-    var title = '<i class="fa-duotone fa-right-from-bracket fa-lg"></i> Beenden';
-    var footer = '<button id="confirmExitGame" type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-19.5rem;"><i class="fa-duotone fa-circle-check fa-lg"></i> Ja</button> <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-duotone fa-circle-xmark fa-lg"></i> Nein</button>';
+    var title = '<i class="fa-solid fa-right-from-bracket fa-lg"></i> Beenden';
+    var footer = '<button id="confirmExitGame" type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-19.5rem;"><i class="fa-solid fa-circle-check fa-lg"></i> Ja</button> <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-circle-xmark fa-lg"></i> Nein</button>';
     var body = 'Sofern der Spielstand beim Verlassen gespeichert werden soll, folgende Checkbox aktivieren. Dadurch kann dieses Spiel später erneut geladen werden.<div><div class="form-check funkyradio" style="display:inline-block; margin-left:0.5em; margin-bottom:0.5em; margin-top:0.5em;"><input class="form-check-input" type="checkbox" value="no" id="saveSessiondata" checked/><label class="form-check-label" for="saveSessiondata">Spielstand merken</label></div></div>Soll das Spiel wirklich beendet werden?';
 
     $('#modal-title').html(title);

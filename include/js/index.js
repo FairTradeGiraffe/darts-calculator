@@ -316,8 +316,8 @@ function getCalculatedAverage(averageArray){
 $('#loadPreviousSession').click(function(){
 
   var DBAccessorKey = $('#monitoring-code').val();
-  var title = '<i class="fa-duotone fa-clock-rotate-left fa-lg"></i> Vorheriges Spiel laden';
-  var footer = '<button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-23.5rem;"><i class="fa-duotone fa-circle-check fa-lg"></i> Okay</button>';
+  var title = '<i class="fa-solid fa-clock-rotate-left fa-lg"></i> Vorheriges Spiel laden';
+  var footer = '<button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-23.5rem;"><i class="fa-solid fa-circle-check fa-lg"></i> Okay</button>';
   var body = "Es gibt kein vorheriges Spiel zum Code: '"+DBAccessorKey+"'.";
 
   //Show previousSession if exists
@@ -382,7 +382,7 @@ $('#loadPreviousSession').click(function(){
         body += "</tbody></table>";
 
         //Set other Buttons in Footer
-        footer = '<button id="confirmLoadPreviousSession" type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-19.5rem;"><i class="fa-duotone fa-circle-check fa-lg"></i> Ja</button> <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-duotone fa-circle-xmark fa-lg"></i> Nein</button>';
+        footer = '<button id="confirmLoadPreviousSession" type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position:relative; left:-19.5rem;"><i class="fa-solid fa-circle-check fa-lg"></i> Ja</button> <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-circle-xmark fa-lg"></i> Nein</button>';
   
       }
       //Zeige Modal an

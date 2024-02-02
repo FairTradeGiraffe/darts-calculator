@@ -3,7 +3,7 @@
 define('DBHOST','localhost');
 define('DBUSER','darts');
 define('DBPASS','PASSWORD_HERE');
-define('DBNAME','darts_live');
+define('DBNAME','darts');
 
 try {
 	//create PDO connection
