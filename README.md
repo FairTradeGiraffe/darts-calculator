@@ -11,4 +11,4 @@ How to install / setup:
 2. Save database credentials in "dbconfig.php" inside folder "/include/php/"
 3. Enjoy playing darts.
 
-If you have any questions / suggestions, feel free to ask them :)
+If you have any questions / suggestions, feel free to ask them 😊
